@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
+
     <Button
         android:id="@+id/primeroBtn"
         android:layout_width="fill_parent"
@@ -14,5 +15,7 @@
         android:id="@+id/segundoBtn"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="bottom"
         android:text="Segundo Boton" />
 </LinearLayout>
